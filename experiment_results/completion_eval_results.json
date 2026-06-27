@@ -1,0 +1,766 @@
+{
+  "benchmark_description": "30 Python function completion tasks",
+  "metrics": [
+    "syntax_rate",
+    "avg_token_overlap",
+    "prefix_match_rate"
+  ],
+  "results": {
+    "MHA": {
+      "syntax_rate": 0.0,
+      "avg_overlap": 0.1111,
+      "prefix_match_rate": 0.0
+    },
+    "GQA2": {
+      "syntax_rate": 0.0,
+      "avg_overlap": 0.1111,
+      "prefix_match_rate": 0.0
+    },
+    "MQA": {
+      "syntax_rate": 0.03333333333333333,
+      "avg_overlap": 0.0944,
+      "prefix_match_rate": 0.0
+    }
+  },
+  "statistics": {
+    "bootstrap": {
+      "MHA_mean_overlap": 0.1111,
+      "GQA2_mean_overlap": 0.1111,
+      "MQA_mean_overlap": 0.0944,
+      "GQA2_MHA_diff_mean": 0.0,
+      "GQA2_MHA_diff_95CI": [
+        -0.1,
+        0.0833
+      ]
+    },
+    "permutation_test_p_value": 1.0
+  },
+  "per_task_details": {
+    "MHA": [
+      {
+        "prompt": "def average(numbers):\n    \"\"\"Return the mean of a ",
+        "completion": ", the a Onted.\n    \"\"\"\n    \"\"\"\n    if return ''.\n    \"\"\"\n    def __init__(self, msg):\n        \"\"\"Ret",
+        "expected_prefix": "return sum",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.5
+      },
+      {
+        "prompt": "def find_max(lst):\n    \"\"\"Find the maximum value i",
+        "completion": "�Puture.\n    \"\"\"\n    \"\"\"\n    if '__ is None:\n        if not None:\n        return _w_excm_p_type(self",
+        "expected_prefix": "max_val",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def unique_elements(items):\n    \"\"\"Return a list w",
+        "completion": "�������')\n    return _exception\n    \"\"\"Return the suppy for the bases.\n    if not a tuples of the ms",
+        "expected_prefix": "list(set",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def count_occurrences(lst, target):\n    \"\"\"Count h",
+        "completion": "����\")\n    return _hister(ftraceptions)\n    def _cre_name(self, fified):\n        \"\"\"Con-ren.cang.\n  ",
+        "expected_prefix": "lst.count",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def merge_lists(a, b):\n    \"\"\"Combine two lists in",
+        "completion": "��method\n    if pos.is_handlease_info = {}\n    else:\n        return (self, tuple, future, base, sock",
+        "expected_prefix": "sorted(",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def is_palindrome(s):\n    \"\"\"Check if a string rea",
+        "completion": ", ent = RENRLERERENED = @res\n    UER = MASTRERED\n    return D\n    REAM = 'cmitted'\n    def __init__(",
+        "expected_prefix": "return s",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.5
+      },
+      {
+        "prompt": "def capitalize_words(text):\n    \"\"\"Capitalize the ",
+        "completion": "8859-tuple'ts a notentical finfotract the\n    \"\"\"\n    if the frame.\n    \"\"\"\n    \"\"\"\n    return _loba",
+        "expected_prefix": "text.title",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def remove_whitespace(s):\n    \"\"\"Remove all whites",
+        "completion": "8859-1\n    return (''\n    \"\"\"Return the  # pos.\n    \"\"\"\n    return _war\n    \"\"\"\n    \"\"\"Return the tr",
+        "expected_prefix": "s.replace",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def count_vowels(text):\n    \"\"\"Count the number of",
+        "completion": "def count_vowels(text):\n    \"\"\"Count the number of vowels in a string.\"\"\"\n    ",
+        "expected_prefix": "vowels",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 1.0
+      },
+      {
+        "prompt": "def reverse_string(s):\n    \"\"\"Reverse a string.\"\"\"",
+        "completion": "8859-info()\n    if fibal is not None:\n        return _w(object, self.t):\n            return self.str",
+        "expected_prefix": "return s[::-1]",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.5
+      },
+      {
+        "prompt": "def factorial(n):\n    \"\"\"Compute the factorial of ",
+        "completion": "'tuple.\n    \"\"\"\n    \"\"\"\n    if s = _s(n)\n    if self.ded_t((f, sock, 'socket):\n        raise perty =",
+        "expected_prefix": "if n",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.5
+      },
+      {
+        "prompt": "def is_prime(n):\n    \"\"\"Check if n is a prime numb",
+        "completion": "(\" = _flags.join(name, '_s', 'ressage', '_f''\n    return ''\\\\n'']\n    if sign_sign:\n        raise Va",
+        "expected_prefix": "if n <",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.333
+      },
+      {
+        "prompt": "def fibonacci(n):\n    \"\"\"Return the n-th Fibonacci",
+        "completion": "�����\u001a\t����\u0015��====\u001f�����ę�",
+        "expected_prefix": "if n",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def gcd(a, b):\n    \"\"\"Compute the greatest common ",
+        "completion": "�ț�������\u0014��ٚ�������\u001f\u0007����====�",
+        "expected_prefix": "while",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def power(base, exp):\n    \"\"\"Raise base to the pow",
+        "completion": "(\"tasses\n    Options the ```````````````````````````````````````````````````````````````````",
+        "expected_prefix": "return base",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def read_lines(filename):\n    \"\"\"Read all lines fr",
+        "completion": " of a write of the speciternus.\n    \"\"\"\n    def __get_name__(self):\n        \"\"\"Return the times for ",
+        "expected_prefix": "with open",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def write_json(data, filename):\n    \"\"\"Write data ",
+        "completion": "����͛\u0014�����åƜ\u001f====�\u001a���\u0007\u001f��\u0007\u001f\u0014\u0007�\u001f˛��͛����ٚ====�__\n    __de_type_name__ = sass\n    upcate_path.read_h",
+        "expected_prefix": "json.",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def merge_dicts(d1, d2):\n    \"\"\"Merge two dictiona",
+        "completion": "���\u0014���˙���\u0006\u001a\u0016����\u001f�Ř�Ě��\u001f��====���Қ\u0007����������\u001f�Ԛ����====\u0006",
+        "expected_prefix": "d1.copy",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def get_keys_with_value(d, target):\n    \"\"\"Return ",
+        "completion": "��Ƹ�\u001f�ś���Ϛ˸�Ԛ��\u001f��\u0006���",
+        "expected_prefix": "[k for",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def invert_dict(d):\n    \"\"\"Invert a dictionary: va",
+        "completion": "Ĝ�К�\u001a��",
+        "expected_prefix": "new =",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def filter_positive(numbers):\n    \"\"\"Return only p",
+        "completion": "�>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ExtendedCdContext.dContext.dedContext.cop(Decimal('1'), Decimal('0')",
+        "expected_prefix": "[n for",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def group_by_first_letter(words):\n    \"\"\"Group wor",
+        "completion": "�Pardd.\n    if _c_stats:\n        else:\n            if the open_name = relevel.from_reak\n            ",
+        "expected_prefix": "result",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def normalize(values):\n    \"\"\"Normalize a list of ",
+        "completion": "����� and ((ified) and aforython. Write. )\n    the curlon-table:\n        --ner()\n    pass\n    \"\"\"\n  ",
+        "expected_prefix": "min_",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def flatten(nested):\n    \"\"\"Flatten a list of list",
+        "completion": "� of adddreates to the reverts the global suppory the speciter\n    \"\"\"\n    \"\"\"\n    \"\"\"\n    return so",
+        "expected_prefix": "for",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "class Stack:\n    def __init__(self):\n        self.",
+        "completion": "Error:\n        \"\"\"Return the entication input Return the sourceddddd to\n        /rity be pocket.\n   ",
+        "expected_prefix": "self.items.append",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "class Counter:\n    def __init__(self):\n        sel",
+        "completion": "���� of the file (self.get_ostarts, self.c_ends):\n        \"\"\"\n        self.c = self.cop(future)\n    ",
+        "expected_prefix": "self.count",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def binary_search(arr, target):\n    \"\"\"Return inde",
+        "completion": " of the msg = suppac_s()\n     # socket ad intented.\n    \"\"\"\n    \"\"\"\n    \"\"\"\n    if not pass\n    retu",
+        "expected_prefix": "left",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def bubble_sort(arr):\n    \"\"\"Sort a list using bub",
+        "completion": "������˫����====���˘��ʚ���\u0007��Ϙ��====�",
+        "expected_prefix": "for i in",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def quicksort(arr):\n    \"\"\"Sort a list using quick",
+        "completion": "�====",
+        "expected_prefix": "if len",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def merge_sort(arr):\n    \"\"\"Sort a list using merg",
+        "completion": "�����",
+        "expected_prefix": "mid",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      }
+    ],
+    "GQA2": [
+      {
+        "prompt": "def average(numbers):\n    \"\"\"Return the mean of a ",
+        "completion": ":\n        up = _s\n        return the path inforeprotocol\n    def __name(self):\n    \"\"\"\n    def __ini",
+        "expected_prefix": "return sum",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.5
+      },
+      {
+        "prompt": "def find_max(lst):\n    \"\"\"Find the maximum value i",
+        "completion": ".\n    \"\"\"Return apriven'.\n    if not sign is None:\n        return _execimal(_s)\n    if self.st_in_fi",
+        "expected_prefix": "max_val",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def unique_elements(items):\n    \"\"\"Return a list w",
+        "completion": "s.\n    if not self._formats:\n        if path is not None:\n            self._s = _path\n            se",
+        "expected_prefix": "list(set",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def count_occurrences(lst, target):\n    \"\"\"Count h",
+        "completion": "s = times.cal_from_tle_cle_ress(f_ost, finfo,\n    pass = trace(fut)\n    if not None:\n        return ",
+        "expected_prefix": "lst.count",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def merge_lists(a, b):\n    \"\"\"Combine two lists in",
+        "completion": "TParnings.\n    if not int intward to a  # socket.\n        return ['.c_msg.\n    if path:\n        curt",
+        "expected_prefix": "sorted(",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def is_palindrome(s):\n    \"\"\"Check if a string rea",
+        "completion": "s = False\n    if (s == 0:\n        return _flast_handlections(other, mum, _get_name,  # items to the ",
+        "expected_prefix": "return s",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 1.0
+      },
+      {
+        "prompt": "def capitalize_words(text):\n    \"\"\"Capitalize the ",
+        "completion": "Thisit_hock_oopts:\n        port = _s\n        for errorsiping is None:\n            if flags:\n        ",
+        "expected_prefix": "text.title",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def remove_whitespace(s):\n    \"\"\"Remove all whites",
+        "completion": "Error:\n        sifixiends = fut\n        if isinstance(name, in )\n            if f\":\n            if i",
+        "expected_prefix": "s.replace",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def count_vowels(text):\n    \"\"\"Count the number of",
+        "completion": "s.\n    \"\"\"\n    \"\"\"\n     If nostarts.\n    \"\"\"\n    Rarent_menustate_t(s, exc_from_name, a signalled.\n ",
+        "expected_prefix": "vowels",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def reverse_string(s):\n    \"\"\"Reverse a string.\"\"\"",
+        "completion": "s, curttribute_s = {}\n    if not not not isinstance(from_reay_s_owidth(c_path)\n        if not None:\n",
+        "expected_prefix": "return s[::-1]",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.5
+      },
+      {
+        "prompt": "def factorial(n):\n    \"\"\"Compute the factorial of ",
+        "completion": "s.\n    != self.s(self, war)\n    def __s(self):\n        \"\"\"\n        self.t(self.cancell(self.repr(sel",
+        "expected_prefix": "if n",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def is_prime(n):\n    \"\"\"Check if n is a prime numb",
+        "completion": ".\n        return self.append(s)\n        return self.format(self.de):\n    def __init__(self, self._de",
+        "expected_prefix": "if n <",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.333
+      },
+      {
+        "prompt": "def fibonacci(n):\n    \"\"\"Return the n-th Fibonacci",
+        "completion": ". != self.st_traces = sc.excal(traception)\n    Decimal_exception(_c_error, Decimal_s=False)\n    def ",
+        "expected_prefix": "if n",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def gcd(a, b):\n    \"\"\"Compute the greatest common ",
+        "completion": "s.\n    \"\"\"Congisterations rootal(self, the tassed)\n    \"\"\"\n    if not None:\n        return\n    \"\"\"\n ",
+        "expected_prefix": "while",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def power(base, exp):\n    \"\"\"Raise base to the pow",
+        "completion": ":\n        tax = get_refor(s)\n        return  # Return the specials to acing the sok\n        != / cre",
+        "expected_prefix": "return base",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.5
+      },
+      {
+        "prompt": "def read_lines(filename):\n    \"\"\"Read all lines fr",
+        "completion": "'s.\n    if not None:\n        return\n    if isinstance(self.get_values(self.file)\n        return _get",
+        "expected_prefix": "with open",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def write_json(data, filename):\n    \"\"\"Write data ",
+        "completion": "s is not apython Returns that able of ad of the\n    the number of the spected to the specified as th",
+        "expected_prefix": "json.",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def merge_dicts(d1, d2):\n    \"\"\"Merge two dictiona",
+        "completion": " = ['\n    libeld_creprints()\n    def __init__(self, outure, trand, convert, OPv,\n        self._s = s",
+        "expected_prefix": "d1.copy",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def get_keys_with_value(d, target):\n    \"\"\"Return ",
+        "completion": " = _st(value, campory, case):\n    if path is not None:\n        if (t_handle_handle_handlers.\n       ",
+        "expected_prefix": "[k for",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def invert_dict(d):\n    \"\"\"Invert a dictionary: va",
+        "completion": "s:\n        if notented is not None:\n            return self.closes\n    def __reate(self, _repr__, se",
+        "expected_prefix": "new =",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.5
+      },
+      {
+        "prompt": "def filter_positive(numbers):\n    \"\"\"Return only p",
+        "completion": "s.\n    if called.\n        if self.ts:\n            raise text\n            return\n        if not self.",
+        "expected_prefix": "[n for",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def group_by_first_letter(words):\n    \"\"\"Group wor",
+        "completion": "\n    RENST_ey_s = _encoding_bytes_exce_dict['\n    if sok == 'from_p_name,\n        path = time.get_co",
+        "expected_prefix": "result",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def normalize(values):\n    \"\"\"Normalize a list of ",
+        "completion": "s.\n    def __encoding(self, tract):\n        Decimal('-ontext, *, **kwargs, folds, date_from_ins)\n   ",
+        "expected_prefix": "min_",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def flatten(nested):\n    \"\"\"Flatten a list of list",
+        "completion": "s the sections.  The flastripiters to the\n    a givener to the number of the botenced, the fipy  REx",
+        "expected_prefix": "for",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "class Stack:\n    def __init__(self):\n        self.",
+        "completion": "False\n        \"\"\"Return adate from the spected of the current to the overting,\n        Option, the o",
+        "expected_prefix": "self.items.append",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "class Counter:\n    def __init__(self):\n        sel",
+        "completion": "(self, f\"_ping, *args, msg)\n        if isinstance(self._de, self._file__):\n            self._de = se",
+        "expected_prefix": "self.count",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def binary_search(arr, target):\n    \"\"\"Return inde",
+        "completion": "Type.repr = _S_info\n    fiter_failtinue\n    \"\"\"\n    if _context_dicts:\n        if not isinstance(fil",
+        "expected_prefix": "left",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def bubble_sort(arr):\n    \"\"\"Sort a list using bub",
+        "completion": "_addrunter.\n    libinterrs = time\n    if ('s.get_pamplements:\n        return 'Ser.state_handle(other",
+        "expected_prefix": "for i in",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def quicksort(arr):\n    \"\"\"Sort a list using quick",
+        "completion": "Congract rootInted\n    Dents will be fiblenalleds to the RACon-tle\n    libleases to the Decimal cren",
+        "expected_prefix": "if len",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def merge_sort(arr):\n    \"\"\"Sort a list using merg",
+        "completion": ":\n        try:\n            if not None:\n            self.c_name = _s\n            return self.c_futur",
+        "expected_prefix": "mid",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      }
+    ],
+    "MQA": [
+      {
+        "prompt": "def average(numbers):\n    \"\"\"Return the mean of a ",
+        "completion": "ue.\n    \"\"\"\n    \"\"\"\n    if the cloativentedError(\"%s.\n        return (\"\n    \"\"\"\n    def __init__(sel",
+        "expected_prefix": "return sum",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.5
+      },
+      {
+        "prompt": "def find_max(lst):\n    \"\"\"Find the maximum value i",
+        "completion": "�ue\n    The a potents GENType of the speciter the sirst when\n    signalled.\n     The dach allow the ",
+        "expected_prefix": "max_val",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def unique_elements(items):\n    \"\"\"Return a list w",
+        "completion": "),\n    if not hasattr(object, '.'):\n        return '__.__init__'\n    def _is_mmand(self, spec)):\n   ",
+        "expected_prefix": "list(set",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def count_occurrences(lst, target):\n    \"\"\"Count h",
+        "completion": "ation,\n    return 'In'\n    \"\"\"\n    \"\"\"Con-his_odedressages adressage,\n    __replacebacks = True\n    ",
+        "expected_prefix": "lst.count",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def merge_lists(a, b):\n    \"\"\"Combine two lists in",
+        "completion": "sommands = _s(s, Returns=0, finteger)\n    \"\"\"Theressage to ad acalled by the number to the source su",
+        "expected_prefix": "sorted(",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def is_palindrome(s):\n    \"\"\"Check if a string rea",
+        "completion": "()\n        \"\"\"\n        return \"<PRLTPLST'\n    \"\"\"\n    def __init__(self, c.d):\n        if not isinst",
+        "expected_prefix": "return s",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.5
+      },
+      {
+        "prompt": "def capitalize_words(text):\n    \"\"\"Capitalize the ",
+        "completion": "])\n    \"\"\"Return the limmand species the strver the refs RERAnce\n    \"\"\"\n    ```. @property\n    Stab",
+        "expected_prefix": "text.title",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def remove_whitespace(s):\n    \"\"\"Remove all whites",
+        "completion": "ue\n    \"\"\"Conly `` is the curt be ad to the On the bomen\n    the  If the ````````````````````.\n     ",
+        "expected_prefix": "s.replace",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def count_vowels(text):\n    \"\"\"Count the number of",
+        "completion": "====ue\n    tegatter the future wails.\n    \"\"\"\n    if the time is not be a specich be an an popt.\n   ",
+        "expected_prefix": "vowels",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def reverse_string(s):\n    \"\"\"Reverse a string.\"\"\"",
+        "completion": "���\u0014��885�����885885��885====885����\u0017\u000b�\u0003�\u0003�\u0014\u0010\u0017ue)\n    \"\"\"Cse the modules of the so a specimplements",
+        "expected_prefix": "return s[::-1]",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def factorial(n):\n    \"\"\"Compute the factorial of ",
+        "completion": "s = _ins.isabearnings.name__().comits(flastries,\n    def __init__(self, exp_ress, exc)\n        self.",
+        "expected_prefix": "if n",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def is_prime(n):\n    \"\"\"Check if n is a prime numb",
+        "completion": "_s = _get_s[']\n    return frame.append(self._s):\n    def __init__(self):\n        if not isinstance(s",
+        "expected_prefix": "if n <",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.333
+      },
+      {
+        "prompt": "def fibonacci(n):\n    \"\"\"Return the n-th Fibonacci",
+        "completion": "itions = Rayp_s.future_name(tract(trace):\n    def __loc_future(self):\n        \"\"\"Return the special ",
+        "expected_prefix": "if n",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def gcd(a, b):\n    \"\"\"Compute the greatest common ",
+        "completion": "       Inangishisternted, the supping the\n    \"\"\"Thister the clervertle.\n    \"\"\"\n    def __is_mask_f",
+        "expected_prefix": "while",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def power(base, exp):\n    \"\"\"Raise base to the pow",
+        "completion": " = b.p(ren, pailit=False)\n    \"\"\"Pvak(ey, val)\n    if respld is None:\n        if not isinstance(f_c_",
+        "expected_prefix": "return base",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.5
+      },
+      {
+        "prompt": "def read_lines(filename):\n    \"\"\"Read all lines fr",
+        "completion": "\f����\u0014\u0003\u0014Ĵ====\u0010\f��ͣ����s.\n        if not _sent.re_name:\n            if not isinstance(object,\n       ",
+        "expected_prefix": "with open",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def write_json(data, filename):\n    \"\"\"Write data ",
+        "completion": "\u0014\u001e�\u0010\u0003�\u0003�\f�====\u001e\u0014�\u0010��\u0017ue.\n    return True:\n    \"\"\"\n    \"\"\"\n    upps a OFalse, items the names the tup",
+        "expected_prefix": "json.",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def merge_dicts(d1, d2):\n    \"\"\"Merge two dictiona",
+        "completion": "',\n    Atrans.c_sentacts = c.\n    if len(b, '%s:'):\n        if not isinstance(name, supp, '\n        ",
+        "expected_prefix": "d1.copy",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def get_keys_with_value(d, target):\n    \"\"\"Return ",
+        "completion": "Error(\"Executures are a Thipy be be a errors.\n    \"\"\"\n    def __init__(self, f'):\n        self.st be",
+        "expected_prefix": "[k for",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def invert_dict(d):\n    \"\"\"Invert a dictionary: va",
+        "completion": "s = msg\n    def __replace(self, _is_his_name, ap, M,\n    def __init__(self, self._st_fset):\n        ",
+        "expected_prefix": "new =",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.5
+      },
+      {
+        "prompt": "def filter_positive(numbers):\n    \"\"\"Return only p",
+        "completion": "ue.\n    \"\"\"\n    \"\"\"\n    \"\"\"\n    _s the sow to acal numbers the flags, a @class\n    if not isinstance",
+        "expected_prefix": "[n for",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def group_by_first_letter(words):\n    \"\"\"Group wor",
+        "completion": "====\u000bation.\n    ``````````````````````````````````````````````````.`.\n   ``````````````````",
+        "expected_prefix": "result",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def normalize(values):\n    \"\"\"Normalize a list of ",
+        "completion": "s = _get_nval(value, ads)\n    return _re_c(f'\n    def _md(self):\n        if f'\n        if not self._",
+        "expected_prefix": "min_",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def flatten(nested):\n    \"\"\"Flatten a list of list",
+        "completion": "885s = somens.s(s)\n    return False\n    return annot be adds:\n    \"\"\"\n    \"\"\"Tel = (fext(bals, n, ad",
+        "expected_prefix": "for",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "class Stack:\n    def __init__(self):\n        self.",
+        "completion": "ue, intraceback, items.read, final_s=None,\n    def __get_arg_his_name(self):\n        \"\"\"Cons abases ",
+        "expected_prefix": "self.items.append",
+        "prefix_match": false,
+        "syntax_ok": true,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "class Counter:\n    def __init__(self):\n        sel",
+        "completion": "ue\n        return self._close(self._context)\n        return self._s\n    def __init__(self, self._ref",
+        "expected_prefix": "self.count",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def binary_search(arr, target):\n    \"\"\"Return inde",
+        "completion": "ue\n    def __re_reak(self, other):\n        return self.cression\n    def __init__(self, self.set):\n  ",
+        "expected_prefix": "left",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def bubble_sort(arr):\n    \"\"\"Sort a list using bub",
+        "completion": "====����['traces'\n    The endould intentedError:\n        return self.cal_ttributemp_boull_s,\n    def",
+        "expected_prefix": "for i in",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      },
+      {
+        "prompt": "def quicksort(arr):\n    \"\"\"Sort a list using quick",
+        "completion": "\u0014ue\n    def __init__(self):\n        return self.stails(self, flags=None, str):\n        if self.write",
+        "expected_prefix": "if len",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.5
+      },
+      {
+        "prompt": "def merge_sort(arr):\n    \"\"\"Sort a list using merg",
+        "completion": "�s, pass = \"c}\n    _get(s, acal_stativen)\n    if the frame is not isinstance(s, 'b'):\n        if not",
+        "expected_prefix": "mid",
+        "prefix_match": false,
+        "syntax_ok": false,
+        "overlap": 0.0
+      }
+    ]
+  }
+}
